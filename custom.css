@@ -1,0 +1,27 @@
+* {
+    --bs-body-bg: #f8f8ff;
+    --color: #0D1B1E;
+    --bs-primary: #9F84BD;
+    --bs-primary-rgb: 159, 132, 189;
+    --primary-hover: #8F74AD;
+    --primary-focus: rgba(159, 132, 189, 0.125);
+}
+
+ul{
+    border: 1px var(--bs-primary) solid;
+    border-radius: 15px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+li {
+    text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+    transition: text-decoration-color 300ms ease-in-out;
+    cursor: pointer;
+}
+
+li:hover {
+    text-decoration-color: var(--bs-primary);
+}
